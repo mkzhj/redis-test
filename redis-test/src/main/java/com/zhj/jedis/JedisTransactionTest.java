@@ -17,6 +17,8 @@ public class JedisTransactionTest {
         tran.set("k6","v6111");
         tran.set("k7","v7111");
         tran.set("k8","v8111");
+        tran.set("k9","v8111");
+        tran.set("k10","v8111");
         tran.exec();
 
 
