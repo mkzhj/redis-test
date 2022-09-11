@@ -19,6 +19,8 @@ public class JedisTransactionTest {
         tran.set("k8","v8111");
         tran.set("k9","v8111");
         tran.set("k10","v8111");
+         tran.set("k10","v8111");
+        //远程库的代码
         tran.exec();
 
 
